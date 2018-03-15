@@ -1,3 +1,4 @@
+//Arquivo de rotas reativas
 package controladores;
 
 import java.io.BufferedReader;
@@ -170,6 +171,7 @@ public class ReactiveRoute2 {
 		}
 	}
 
+	//AQUI ACONTECE A MÁGICA
 	public void create(String path) throws JSONException, URISyntaxException {
 		JSONArray rel = new JSONArray(path);
 		Neo4jHosts h = new Neo4jHosts();

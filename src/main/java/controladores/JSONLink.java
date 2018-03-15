@@ -65,6 +65,7 @@ public class JSONLink {
 		}
 	}
 
+	//ENVIA ARRAY PARA O FLOODLIGHT
 	public void readJsonLink_FLOODLIGHT(ArrayList<SwitchData> arraySWD, ControlData controller)
 			throws ParseException, URISyntaxException {
 		JSONObject link;
